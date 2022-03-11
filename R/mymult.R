@@ -1,7 +1,7 @@
 #' @title multinomial
-#' @param iter
-#' @param n
-#' @param p
+#' @param iter vector of numbers
+#' @param n vector of numbers
+#' @param p vector of numbers
 #'
 #' @return
 #' @export

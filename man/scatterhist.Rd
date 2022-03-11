@@ -7,16 +7,16 @@
 scatterhist(x, y, xlab = "", ylab = "")
 }
 \arguments{
-\item{x}{X variable as a vector}
+\item{x}{a vector of numbers}
 
-\item{y}{Y variable as a vector}
+\item{y}{a vector of numbers}
 
 \item{xlab}{X label}
 
 \item{ylab}{Y label}
 }
 \value{
-
+a plot
 }
 \description{
 scatter histogram

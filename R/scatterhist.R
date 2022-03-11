@@ -1,11 +1,10 @@
 #' @title scatter histogram
-#'
-#' @param x X variable as a vector
-#' @param y Y variable as a vector
+#' @param x a vector of numbers
+#' @param y a vector of numbers
 #' @param xlab X label
 #' @param ylab Y label
-#'@importFrom graphics barplot hist par mtext
-#' @return
+#' @importFrom graphics barplot hist par mtext
+#' @return a plot
 #' @export
 #'
 #' @examples

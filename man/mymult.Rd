@@ -7,7 +7,11 @@
 mymult(iter = 100, n = 10, p = c(1, 1, 1, 1)/4)
 }
 \arguments{
-\item{p}{}
+\item{iter}{vector of numbers}
+
+\item{n}{vector of numbers}
+
+\item{p}{vector of numbers}
 }
 \value{
 
