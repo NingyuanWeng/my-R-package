@@ -4,12 +4,12 @@
 \alias{myddt}
 \title{filtering data}
 \usage{
-myddt(df, cond)
+myddt(df, SPECIES)
 }
 \arguments{
 \item{df}{data frame}
 
-\item{cond}{condition for filter}
+\item{SPECIES}{condition for filter}
 }
 \value{
 filtered data frame
@@ -18,5 +18,5 @@ filtered data frame
 filtering data
 }
 \examples{
-\dontrun{myddt(ddt,SPECIES == "CCATFISH")}
+\dontrun{myddt(ddt,SPECIES = "CCATFISH")}
 }

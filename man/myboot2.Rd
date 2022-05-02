@@ -15,7 +15,7 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5)
 
 \item{alpha}{number}
 
-\item{cx}{numer}
+\item{cx}{number}
 }
 \description{
 myboot
