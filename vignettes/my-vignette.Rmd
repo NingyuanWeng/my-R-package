@@ -1,0 +1,69 @@
+---
+title: "my vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753Weng0006)
+```
+
+
+## Introduction
+This package contains some functions that I have learned this semester
+This vignette presents the 4 functions I have learned this semester
+
+## First function
+
+scatterhist is a function that will make scatter histogram
+ 
+```{r}
+MATH4753Weng0006::scatterhist(ddt$LENGTH,ddt$WEIGHT)
+
+```
+ 
+## Second function
+
+mymult is a function that will make multinomial probability distribution 
+ 
+```{r}
+MATH4753Weng0006::mymult(iter=1000,n=10,p=c(1,2,3,4,2)/12)
+
+```
+ 
+ 
+## Third function
+
+ mymaxlik is a function that will make maximum likelihood estimates
+```{r}
+loggamma=function(x,param) log(dgamma(x,log = FALSE, shape = 2,rate =param ))
+MATH4753Weng0006::mymaxlik(x=c(9,9,1,9,9,9),param=seq(0,1,length=1000),lfun=loggamma)
+```
+
+ 
+## fourth function 
+
+myncurve will display the dnorm curve, shaded area between the curve and x axis from negative infinity to x=a,  
+ 
+```{r}
+MATH4753Weng0006::myncurve(5,10,6)
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -2,22 +2,19 @@
 % Please edit documentation in R/mymult.R
 \name{mymult}
 \alias{mymult}
-\title{multinomial}
+\title{mymult}
 \usage{
 mymult(iter = 100, n = 10, p = c(1, 1, 1, 1)/4)
 }
 \arguments{
-\item{iter}{vector of numbers}
+\item{iter}{a vector of numbers}
 
-\item{n}{vector of numbers}
+\item{n}{a vector of numbers}
 
-\item{p}{vector of numbers}
-}
-\value{
-
+\item{p}{a vector of numbers}
 }
 \description{
-multinomial
+mymult
 }
 \examples{
 mymult(iter=1000,n=10,p=c(1,2,3,4,2)/12)

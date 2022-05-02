@@ -3,7 +3,7 @@
 #' @param y a vector of numbers
 #' @param xlab X label
 #' @param ylab Y label
-#' @importFrom graphics barplot hist par mtext
+#' @importFrom graphics barplot hist par mtext layout
 #' @return a plot
 #' @export
 #'
